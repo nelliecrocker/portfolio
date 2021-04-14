@@ -1,0 +1,28 @@
+#nav-bar {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:medium;
+}
+
+a {
+    color:darkgoldenrod !important;
+}
+
+.header-image {
+    max-height: 750px;
+    min-height: 750px;
+    width: auto;
+
+}
+
+.carousel-item {
+    margin-right: 0 !important;
+}
+
+#projects {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.project-image {
+    height: 300px;
+}
