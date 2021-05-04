@@ -1,5 +1,13 @@
 .body-general {
-    background-color: #E3DFE0;
+    background-color: #e8c7bd;
+    background-image: url("./assets/tanoverlay3.png");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+header {
+    margin-bottom: 150px;
 }
 
 #header-image {
@@ -14,12 +22,12 @@
 #nav-bar {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size:medium;
-    background-color: white;
+    /* background-color: white; */
     margin: 0px auto 20px auto;
 }
 
 a {
-    color:#DAA0A9 !important;
+    color:#535354 !important;
     text-decoration: none !important;
 }
 
@@ -38,8 +46,13 @@ card-body {
     background: none;
 }
 
+#card-image {
+    width: 300px;
+    height: auto;
+}
+
 #card-text2 {
-    color: #353031;
+    color: #535354;
     padding: 40px 40px 40px 40px;
 
 }
@@ -47,26 +60,24 @@ card-body {
 #projects {
     display: flex;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 200px;
     justify-content: space-evenly;
     
 }
 
 .project-image {
     border: 0px transparent;
-    border-radius: 100px;
+    /* border-radius: 80px; */
     height: 200px;
     width: 200px;
-    box-shadow: 5px 5px 3px gray;
+    /* box-shadow: 5px 5px 3px gray; */
     margin-bottom: 15px;
     align-content: center;
-    filter: opacity(40%)
+    /* filter: opacity(40%) */
 }
 
 a > p {
-    color: #353031
-
-    ;
+    color: #535354;
     text-align: center;
     text-decoration: none;
     font-size:medium;
@@ -85,8 +96,22 @@ a>img:hover {
     filter: none;
 
 }
+
+#skills-list {
+display: flex;
+justify-content: space-evenly;
+background-color: transparent;
+margin-left: 350px;
+margin-right: 350px;
+}
+
+.skills-card {
+    background-color: transparent;
+    border: none;
+}
+
 #form-body {
-    background-color: #353031;
+    background-color: #535354;
     color: white;
     padding-top: 25px;
     padding-bottom: 25px;
