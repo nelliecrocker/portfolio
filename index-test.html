@@ -19,56 +19,63 @@
     </div>
     <ul id="nav-bar" class="nav justify-content-center">
         <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">| about me |</a>
+            <a class="nav-link active" aria-current="page" href="#about-me-nav">| about me |</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">| my work |</a>
+            <a class="nav-link" href="#projects-nav">| projects |</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">| contact |</a>
+            <a class="nav-link" href="#skills-nav">| skills |</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#contact-nav">| contact me |</a>
         </li>
     </ul>
 
-    <!-- About me with rotating image -->
+    <!-- About me -->
     <header>
-        <div class="container">
-            <div class="card mb-3" style="background-color: transparent; border: none; margin: 150px 25px 100px 25px;">
-                <div class="row g-0">
-                    <div class="col-md-4" style="justify-content: center;">
-                        <img id="card-image" src="./assets/hi-circle.png" alt="...">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">My name is Nellie.</h5>
-                            <p class="card-text">Unbeknownst to me, I have been
-                                slowly making my way toward a career in web development over the last ten years. My
-                                professional history
-                                and personal interests have aligned to set me up as a diverse and client-focused web
-                                developer. I am a
-                                creative and process-focused
-                                problem solver with experience in
-                                communication, digital and print design,
-                                marketing, social media, and non-profits in addition to web development.<br><br>In my
-                                freetime, I can be
-                                found alongside my husband as we work to bring life back into a dilapidated 4-acre
-                                property in central
-                                Indiana.</p>
+        <section id="about-me-nav">
+            <div class="container">
+                <div class="card mb-3"
+                    style="background-color: transparent; border: none; margin: 150px 25px 100px 25px;">
+                    <div class="row g-0">
+                        <div class="col-md-4" style="justify-content: center;">
+                            <img id="card-image" src="./assets/hi-circle.png" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">My name is Nellie.</h5>
+                                <p class="card-text">Unbeknownst to me, I have been
+                                    slowly making my way toward a career in web development over the last ten years. My
+                                    professional history
+                                    and personal interests have aligned to set me up as a diverse and client-focused web
+                                    developer. I am a
+                                    creative and process-focused
+                                    problem solver with experience in
+                                    communication, digital and print design,
+                                    marketing, social media, and non-profits in addition to web development.<br><br>In
+                                    my
+                                    freetime, I can be
+                                    found alongside my husband as we work to bring life back into a dilapidated 4-acre
+                                    property in central
+                                    Indiana.</p>
 
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-        </div>
+            </div>
+        </section>
     </header>
 
     <!-- Projects -->
-    <ul class="nav-bar nav justify-content-center">
+    <ul id="projects-nav" class="nav-bar nav justify-content-center">
         <li class="nav-item">
             <img src="./assets/projects.png" alt="">
         </li>
     </ul>
-    <section id="projects">
+    <section>
         <div class="container">
             <div class="row">
 
@@ -100,43 +107,58 @@
         </div>
     </section>
     <!-- Skills -->
-    <ul class="nav-bar nav justify-content-center">
-        <li class="nav-item">
-            <img src="./assets/skills.png" alt="">
-        </li>
-    </ul>
-    <section id="skills-list">
-        <div class="card">
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Adobe Design Suite</li>
-              <li class="list-group-item">Social Media</li>
-              <li class="list-group-item"></li>
-            </ul>
-          </div>
-          <div class="card skills-card">
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Javascript</li>
-              <li class="list-group-item">Git & Github</li>
-              <li class="list-group-item">Visual Studio Code</li>
-            </ul>
-          </div>
-          <div class="card skills-card">
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">HTML</li>
-              <li class="list-group-item">CSS</li>
-              <li class="list-group-item">Bootstrap</li>
-            </ul>
-          </div>
-
+    <section id="skills-nav">
+        <ul class="nav-bar nav justify-content-center">
+            <li class="nav-item">
+                <img src="./assets/skills.png" alt="">
+            </li>
+        </ul>
+        <div id="skills-list">
+            <div class="card bg-transparent border-0">
+                <ul class="list-group list-group-flush ">
+                    <li class="list-group-item bg-transparent border-0"><img src="./assets/004-indesign.png"></li>
+                    <li class="list-group-item bg-transparent border-0"><img src="./assets/003-premier.png"></li>
+                    <li class="list-group-item bg-transparent border-0"><img src="./assets/006-photoshop.png"></li>
+                    <li class="list-group-item bg-transparent border-0"><img src="./assets/005-illustrator.png"></li>
+                </ul>
+            </div>
+            <div class="card bg-transparent border-0">
+                <ul class="list-group list-group-flush border-0">
+                    <li class="list-group-item bg-transparent border-0">
+                        <img src="./assets/002-javascript.png" alt="">
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                        <img src="./assets/007-github.png" alt="">
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                        <img src="./assets/010-visual-studio.png" alt="">
+                    </li>
+                </ul>
+            </div>
+            <div class="card bg-transparent border-0">
+                <ul class="list-group list-group-flush border-0">
+                    <li class="list-group-item bg-transparent border-0">
+                        <img src="./assets/001-html.png" alt="">
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                        <img src="./assets/008-css-3.png" alt="">
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                        <img src="./assets/009-bootstrap.png" alt="">
+                    </li>
+                </ul>
+            </div>
+        </div>
 
     </section>
     <!-- Contact Form -->
-    <ul class="nav-bar nav justify-content-center">
+    <ul id="contact-nav" class="nav-bar nav justify-content-center">
         <li class="nav-item">
             <img src="./assets/contact.png" alt="">
         </li>
     </ul>
-    <section id="form-body">
+
+    <section class="form-body">
         <div class="container">
 
             <div class="row">
@@ -182,6 +204,7 @@
                 <a href="https://drive.google.com/file/d/1Irsy0j0ZuKn8cSu6EXCxJ5TBGZnYmCjo/view?usp=sharing"
                     target="_blank">Resumé</a> </span>
         </div>
+        <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div><div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div><div>Icons made by <a href="https://www.flaticon.com/authors/vitaly-gorbachev" title="Vitaly Gorbachev">Vitaly Gorbachev</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div><div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
     </footer>
 
     <!--  -->
