@@ -4,7 +4,7 @@ html {
 
 .body-general {
     background-color: #e8c7bd;
-    background-image: url("./assets/tanoverlay3.png");
+    background-image: url("./assets/tanoverlay2.png");
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
@@ -106,8 +106,8 @@ a>img:hover {
 display: flex;
 justify-content: space-evenly;
 background-color: transparent;
-margin-left: 250px;
-margin-right: 250px;
+margin-left: 200px;
+margin-right: 200px;
 }
 
 .skills-card {
@@ -116,19 +116,25 @@ margin-right: 250px;
 }
 
 
-
-.form-body {
+#form-body {
     background-color: #535354;
     color: white;
     padding-top: 25px;
     padding-bottom: 25px;
+    width: 50%;
+    border: none;
     
 }
 
-#form-card {
-    width: 100%;
-}
-
+.form-background {
+    background-color: #535354;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 0px;
+        
+ }
+    
 input {
     display: flex;
     width: 75%;
@@ -140,21 +146,35 @@ textarea {
 }
 
 #form-button {
-    width: 50%;
+    width: 20%;
     margin-top: 15px;
-    text-align: center;
+    
 }
 
 #social-icons {
-    width: 100px;
-    height: 100px;
-    margin: 10px;
+    width: 25px;
+    height: 25px;
+    margin: 5px;
 }
 
 #footer {
     display: flex;
     width: 100%;
-    /* position: fixed; */
+    height: 250px;
     bottom: 0;
-    margin-top: 15px;
+    line-height: 1.6;
+}
+
+.footer-text {
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    text-align: center;;
+}
+
+.footer-item {
+    list-style-type: none;
+    padding: 0px;
 }
