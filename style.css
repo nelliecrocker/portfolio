@@ -40,6 +40,29 @@ a {
     justify-content:space-evenly;
 }
 
+.projects:hover .overlay {
+    opacity: 1;
+}
+
+.overlay {
+    position: absolute;
+    height: auto;
+    top: 20%;
+    left: 0;
+    right: 0;
+    opacity: 0.3;
+    background-color: #eeece8;
+    
+}
+
+.text {
+    color: #535354;
+    font-size: small;
+    text-align: center;
+    padding: 10px;
+
+}
+
 card-body {
     border: 0px;
     border-color: transparent;
@@ -64,13 +87,10 @@ card-body {
 
 .project-image {
     border: 0px transparent;
-    /* border-radius: 80px; */
     height: 200px;
     width: 200px;
-    /* box-shadow: 5px 5px 3px gray; */
     margin-bottom: 15px;
     align-content: center;
-    /* filter: opacity(40%) */
 }
 
 a > p {
@@ -84,13 +104,6 @@ a > p {
 a:hover {
     transition: all .2s ease-in-out; 
     transform: scale(1.15);
-
-}
-
-a>img:hover {
-    transition: all .2s ease-in-out; 
-    transform: scale(1.1);
-    filter: none;
 
 }
 
@@ -142,7 +155,6 @@ textarea {
     width: 20%;
     margin-top: 15px;
     text-align: center;
-    padding: auto;
     
 }
 
@@ -161,12 +173,13 @@ textarea {
 }
 
 .footer-text {
+    font-size: small;
     padding-top: 40px;
     padding-right: 40px;
     padding-left: 40px;
     padding-bottom: 0px;
     margin-bottom: 0px;
-    text-align: center;;
+    text-align: center;
 }
 
 .footer-item {
