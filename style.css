@@ -42,6 +42,7 @@ a {
 
 .projects:hover .overlay {
     opacity: 1;
+    visibility: visible;
 }
 
 .overlay {
@@ -52,10 +53,11 @@ a {
     right: 0;
     opacity: 0.3;
     background-color: #eeece8;
+    visibility: hidden;
     
 }
 
-.text {
+.text1 {
     color: #535354;
     font-size: small;
     text-align: center;
@@ -66,6 +68,7 @@ a {
 card-body {
     border: 0px;
     border-color: transparent;
+    backface-visibility: hidden;
 }
 
 #card-style {
@@ -76,12 +79,12 @@ card-body {
 #card-image {
     width: 300px;
     height: auto;
+    
 }
 
 #card-text2 {
     color: #535354;
     padding: 40px 40px 40px 40px;
-
 }
 
 
