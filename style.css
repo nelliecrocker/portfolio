@@ -157,7 +157,10 @@ textarea {
 #form-button {
     width: 20%;
     margin-top: 15px;
-    text-align: center;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px;
     
 }
 
